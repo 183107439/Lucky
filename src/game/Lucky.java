@@ -41,12 +41,12 @@ public class Lucky {
 			
 			case 1:		//	注册
 				System.out.println(">>>注册");
-				for (int i = 0; i <names.length-1; i++) {
+				for (int i = 0; i <names.length; i++) {
 					if(names[i]==null){						
 						index=i;
 						break;
 					}
-					if(i==9){
+					if(i==10){
 						System.out.println("对不起,存储空间不够,无法注册!");
 					}
 				}
